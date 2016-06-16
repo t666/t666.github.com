@@ -1,0 +1,62 @@
+﻿@charset "utf-8";
+/* CSS layout */
+
+/* 默认样式 */
+body,div,ul,li,span,img,input,form{ margin:0; padding:0;}
+body,p,h1,h2,h3,h4,h5,h6,ul,b,ol,dl,li,dd{font-family:''; color:#666; margin:0; }
+ul,ol,{padding:0;font-family:'';}
+
+body{ font-size:12px; font-family:Tahoma,Helvetica,arial,sans-serif;}
+a,p{ text-decoration:none; color:#666; }
+i,em{ font-style:normal;}
+li{ list-style:none; }
+img{ border:none 0;}
+input{ outline:none; border:none; background:none;}
+input,textarea,select{ margin:0; }					
+input,textarea{ padding:0;}
+input::-ms-clear{display:none;}
+img{ vertical-align:top;}
+
+/* 浮动公共样式 */
+.left{ float:left; _display:inline; }
+.right{ float:right; _display:inline; }
+.clearfix:after{ display:block; content:''; clear:both;}
+.clearfix{ zoom:1;}
+
+.header-box .cont .buy:hover{ background:#fff;}
+.header-box .cont .buy:hover a{border-bottom:1px solid #fff; position:relative; z-index:1; display:block;}
+.header-box .cont .buy:hover .buy-box{ display:block;}
+
+.sidebar-box .life-se .ul-btn li:hover{ height:26px; line-height:23px; border-bottom:0; border-top:2px solid #c81623;}
+
+.dress .top ul li:hover a{border-top:3px solid #c81623; background:#fff; padding-bottom:2px;line-height:30px; margin-top:-1px; height:31px; border-left:1px solid #c81623; position:relative; z-index:1; margin-left:-1px;  border-right:1px solid #c81623;text-indent: 1px;}
+.dress .top ul li:hover span{ display:none;}
+
+.nursing .top ul li:hover a{border-top:3px solid #c81623; background:#fff; padding-bottom:2px;line-height:30px; margin-top:-1px; height:31px; border-left:1px solid #c81623; position:relative; z-index:1; margin-left:-1px;  border-right:1px solid #c81623;text-indent: 1px;}
+.nursing .top ul li:hover span{ display:none;}
+
+.phone .top ul li:hover a{border-top:3px solid #c81623; background:#fff; padding-bottom:2px;line-height:30px; margin-top:-1px; height:31px; border-left:1px solid #c81623; position:relative; z-index:1; margin-left:-1px;  border-right:1px solid #c81623;text-indent: 1px;}
+.phone .top ul li:hover span{ display:none;}
+
+
+.electrical .top ul li:hover a{border-top:3px solid #c81623; background:#fff; padding-bottom:2px;line-height:30px; margin-top:-1px; height:31px; border-left:1px solid #c81623; position:relative; z-index:1; margin-left:-1px;  border-right:1px solid #c81623;text-indent: 1px;}
+.electrical  .top ul li:hover span{ display:none;}
+
+.computer .top ul li:hover a{border-top:3px solid #c81623; background:#fff; padding-bottom:2px;line-height:30px; margin-top:-1px; height:31px; border-left:1px solid #c81623; position:relative; z-index:1; margin-left:-1px;  border-right:1px solid #c81623;text-indent: 1px;}
+.computer .top ul li:hover span{ display:none;}
+
+.sport .top ul li:hover a{border-top:3px solid #c81623; background:#fff; padding-bottom:2px;line-height:30px; margin-top:-1px; height:31px; border-left:1px solid #c81623; position:relative; z-index:1; margin-left:-1px;  border-right:1px solid #c81623;text-indent: 1px;}
+.sport .top ul li:hover span{ display:none;}
+
+.home .top ul li:hover a{border-top:3px solid #c81623; background:#fff; padding-bottom:2px;line-height:30px; margin-top:-1px; height:31px; border-left:1px solid #c81623; position:relative; z-index:1; margin-left:-1px;  border-right:1px solid #c81623;text-indent: 1px;}
+.home .top ul li:hover span{ display:none;}
+
+.mama .top ul li:hover a{border-top:3px solid #c81623; background:#fff; padding-bottom:2px;line-height:30px; margin-top:-1px; height:31px; border-left:1px solid #c81623; position:relative; z-index:1; margin-left:-1px;  border-right:1px solid #c81623;text-indent: 1px;}
+.mama .top ul li:hover span{ display:none;}
+
+.food .top ul li:hover a{border-top:3px solid #c81623; background:#fff; padding-bottom:2px;line-height:30px; margin-top:-1px; height:31px; border-left:1px solid #c81623; position:relative; z-index:1; margin-left:-1px;  border-right:1px solid #c81623;text-indent: 1px;}
+.food .top ul li:hover span{ display:none;}
+
+.phonotape .top ul li:hover a{border-top:3px solid #c81623; background:#fff; padding-bottom:2px;line-height:30px; margin-top:-1px; height:31px; border-left:1px solid #c81623; position:relative; z-index:1; margin-left:-1px;  border-right:1px solid #c81623;text-indent: 1px;}
+.phonotape .top ul li:hover span{ display:none;}
+

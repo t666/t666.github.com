@@ -1,0 +1,2099 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>爱奇艺</title>
+<link rel="stylesheet" href="css/index.css"/>
+<link rel="stylesheet" href="css/base.css"/>
+<script src="js/jquery-1.7.2.js"></script>
+<script>
+	$(function(){
+		$('#side-nav li').mouseover(function(){
+			$('#side-nav li').removeClass('active');
+			$('.ul-img li').removeClass('li7')
+			$(this).addClass('active');	
+			$('.ul-img li').eq($(this).index()).addClass('li7');
+		});
+	});
+</script>
+</head>
+
+<body>
+<div class="header-box" id="header">
+	<ul class="ul-img">
+    	<li class="li7"><a href="javascript:;"><img src="img/0.jpg" alt=""/></a></li>
+        <li><a href="javascript:;"><img src="img/1.jpg" alt=""/></a></li>
+        <li><a href="javascript:;"><img src="img/2.jpg" alt=""/></a></li>
+        <li><a href="javascript:;"><img src="img/3.jpg" alt=""/></a></li>
+        <li><a href="javascript:;"><img src="img/4.jpg" alt=""/></a></li>
+        <li><a href="javascript:;"><img src="img/5.jpg" alt=""/></a></li>
+        <li><a href="javascript:;"><img src="img/6.jpg" alt=""/></a></li>
+        <li><a href="javascript:;"><img src="img/7.jpg" alt=""/></a></li>
+        <li><a href="javascript:;"><img src="img/8.jpg" alt=""/></a></li>
+        <li><a href="javascript:;"><img src="img/9.jpg" alt=""/></a></li>
+    </ul>
+    <div class="head">
+        <div class="top-nav clearfix">
+            <input type="text" class="inp" value=""/>
+            <a href="#" class="sou_a"></a>
+            <ul class="clearfix">
+            	<li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">开通VIP</a></li>
+                <li class="li1" onclick="Dianji();"><a href="#"><b></b>上传<i id="Gb"></i><span></span></a></li>
+                <li class="li2"onclick="Dianji1()"><a href="#">下载<b id="Hb"></b></a></li>
+                <li class="li3"><a href="#">消息<b></b></a></li>
+                <li class="li4"><a href="#">播放记录<b></b></a></li>
+            </ul>
+        </div>
+        <div class="side-nav" >
+        	<ul id="side-nav">
+            	<li class="active"><a href="#">北上广不相信眼泪：职场迷情</a></li>
+                <li><a href="#">跑男3：鹿晗秒速抢答惊呆全场</a></li>
+                <li><a href="#">云中歌：陈晓杜淳心生嫌隙</a></li>
+                <li><a href="#">灵魂摆渡2：铁三角再续前缘</a></li>
+                <li><a href="#">时尚江湖：李小璐花式晒幸福</a></li>
+                <li><a href="#">新济公活佛：李威变身哈蒙王子</a></li>
+                <li><a href="#">超模变身狂野电玩Queen</a></li>
+                <li><a href="#">BBC狗狗秘闻：最有爱宠物大片</a></li>
+                <li><a href="#">综艺大嘴巴：李易峰新综上线</a></li>
+                <li><a href="#">1117美图产品发布会</a></li>
+            </ul>
+        </div>
+    </div>    
+        <div class="bottom-nav">
+        	<div class="content clearfix">
+            	<div class="logo">
+                	<h1></h1>
+                    <p>悦享品质</p>
+                </div>
+                <div class="list clearfix">
+                	<div class="list-1">
+                    	<a href="javascript:;">娱乐</a>
+                        <a href="javascript:;">体育</a>
+                        <a href="javascript:;">资讯</a>
+                    </div>
+                    <div class="list-2 clearfix">
+                    	<div class="list-2-1">
+                        	<a href="javascript:;">电影</a>
+                            <a href="javascript:;">片花</a>
+                            <a href="javascript:;">微电影</a>
+                        </div>
+                    	<div class="list-2-2">
+                        	<a href="javascript:;">电视剧</a>
+                            <a href="javascript:;">综艺</a>
+                            <a href="javascript:;">脱口秀</a>
+                        </div>
+                    </div>
+                    <div class="list-3 clearfix">
+                    	<div class="list-3-1">
+                        	<a href="javascript:;">动漫</a>
+                            <a href="javascript:;">少儿</a>
+                            <a href="javascript:;">游戏</a>
+                        </div>
+                    	<div class="list-3-2">
+                        	<a href="javascript:;">生活</a>
+                            <a href="javascript:;">母婴</a>
+                            <a href="javascript:;">健康</a>
+                        </div>
+                    </div>
+                    <div class="list-3 clearfix">
+                    	<div class="list-3-1">
+                        	<a href="javascript:;">音乐</a>
+                            <a href="javascript:;">时尚</a>
+                            <a href="javascript:;">旅游</a>
+                        </div>
+                    	<div class="list-3-2">
+                        	<a href="javascript:;">搞笑</a>
+                            <a href="javascript:;">原创</a>
+                            <a href="javascript:;">拍客</a>
+                        </div>
+                    </div>
+                    <div class="list-4 clearfix">
+                    	<div class="list-4-1">
+                        	<a href="javascript:;">财经</a>
+                            <a href="javascript:;">科技</a>
+                            <a href="javascript:;">汽车</a>
+                        </div>
+                    	<div class="list-4-2">
+                        	<a href="javascript:;">军事</a>
+                            <a href="javascript:;">教育</a>
+                            <a href="javascript:;">纪录片</a>
+                        </div>
+                    </div>
+                    <div class="list-5 clearfix">
+                    	<div class="list-5-1">
+                        	<a href="javascript:;">风云榜</a>
+                            <a href="javascript:;">全网影视</a>
+                            <a href="javascript:;">爱奇艺搜索</a>
+                        </div>
+                    	<div class="list-5-2">
+                        	<a href="javascript:;">公益</a>
+                            <a href="javascript:;">直播中心</a>
+                            <a href="javascript:;">爱奇艺出品</a>
+                        </div>
+                    </div>
+                    <div class="list-6 clearfix">
+                    	<div class="list-6-1">
+                        	<a href="javascript:;">PPS游戏</a>
+                            <a href="javascript:;">应用商店</a>
+                            <a href="javascript:;">爱奇艺商城</a>
+                            <i></i>
+                        </div>
+                    	<div class="list-6-2">
+                        	<a href="javascript:;">PPS奇秀</a>
+                            <a href="javascript:;"><span>VIP</span>会员</a>
+                            <a href="javascript:;">个人中心</a>
+                            <b></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="content-box">
+	<div class="Focus clearfix">
+    	<div class="l-box">
+        	<div class="top clearfix">
+                <h2>今日焦点</h2>
+                <a href="javascript:;">更多></a>
+                <p class="clearfix"><span></span>独播</p>
+            </div>
+            <div class="cont">
+            	<h2>俄方确认恐怖袭击致A321客机坠毁</h2>
+                <ul>
+                	<li><a href="javascript:;">巴黎恐袭主脑为比利时人  IS威胁将袭击华盛顿</a></li>
+                    <li><a href="javascript:;">四川宜宾首富被绑架勒索1亿 遭绑匪胁迫杀人 </a></li>
+                    <li><a href="javascript:;">延时摄影拍北京三元桥大修  人社局长儿子吃空饷</a></li>
+                    <li><a href="javascript:;">两女子地铁车厢吃卤味 大叔提醒反被骂关你屁事 </a></li>
+                    <li><a href="javascript:;">女儿心酸作文:爸爸只爱手机  万元现金被老鼠咬碎</a></li>
+                    <li><a href="javascript:;">实拍宝马漂移撞山变废铁  男子行窃太累教室睡着</a></li>
+                </ul>
+                <div class="bottom clearfix">
+                	<div class="l-1">
+                    	<a href="javascript:;"><img src="img/f1b61e971b454459bec799bdb8f5f11f.jpg" alt="" width="180" height="100"/></a>
+                        <a href="javascript:;">作死男裸身跳进了仙人掌</a>
+                    </div>
+                    <div class="r-1">
+                    	<a href="javascript:;"><img src="img/848e7fa8cdba4b98821d9da679a256ec.gif" width="180" height="100" alt=""/></a>
+                        <a href="javascript:;">女孩将煤球放井盖吸油被炸</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-box">
+        	<div class="top">
+            	<a href="javascript:;"><img src="img/be755b402c4b4209a373417984680bb1.jpg" alt=""/></a>
+                <div class="posi">
+                	<div class="toum"></div>
+                
+               		<p>表姐来华被指耍大牌 女星过激MV害父亲被骂</p>
+                </div>
+            </div>
+			<ul>
+                	<li><a href="javascript:;">七分七秒:95后网络女主播年赚百万 谈直播"尺度"</a></li>
+                    <li><a href="javascript:;">《跑男3》谢娜被玩"哭" 《云中歌》网播量破60亿 </a></li>
+                    <li><a href="javascript:;">曝吴佩慈香港剖腹产二胎男婴 赵忠祥揭春晚一审</a></li>
+                    <li><a href="javascript:;">罗志祥《致命伤》MV 饥饿游戏3（下）游戏对战 </a></li>
+                    <li><a href="javascript:;">黄心猕猴桃0.99全国包邮 萌萌哒音箱28.8包邮</a></li>
+			</ul>
+		</div>
+        <div class="r-box">
+        	<div class="l-2">
+                    	<a href="javascript:;"><img src="img/93f9d86847a640379b6675c0d3164d32.jpg" alt="" width="180" height="100"/></a>
+                        <a href="javascript:;">鹿晗神答题被疑虚报年龄</a>
+            </div>
+            <div class="l-2">
+                    	<a href="javascript:;"><img src="img/c9614708a9604baa94e951a859872700.jpg" alt="" width="180" height="100"/></a>
+                        <a href="javascript:;">鬼马蒋劲夫变身傻白甜受虐</a>
+            </div>
+            <div class="l-2">
+                    	<a href="javascript:;"><img src="img/4103011dfb04401991254df72e9efba5.jpg" alt="" width="180" height="100"/></a>
+                        <a href="javascript:;">维秘天使教你练就魔鬼身材</a>
+            </div>
+        </div>
+    </div>
+    <div class="Variety clearfix">
+    	<div class="l-box">
+        	<div class="top clearfix">
+            	<h2>综艺</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">爱上超模第2季</li>
+                    <li>晓松奇谈</li>
+                    <li>大牌对王牌</li>
+                    <li>流行之王</li>
+                </ul>
+                <p class="p1"></p>
+                <p class="p2"></p>
+            </div>
+            <div class="bottom clearfix">
+                <div class="l-div">
+                    	<a href="javascript:;"><img src="img/bd5c0431f8394507bbfefa311044f97b.jpg" alt="" /></a>
+                        <h3>非首脑会谈</h3>
+                        <a href="javascript:;" class="a1">Guillaume疑将结婚 殷志源公开童颜秘诀</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-16期</p>
+                        </div>
+                        <b></b>
+                        <i></i>
+                    </div>
+                <div class="c-div">
+                	<div class="c-t-div">
+                    	<a href="javascript:;"><img src="img/bf58474d8ede4bfba8a90dfb2e56fc24.jpg" alt="" /></a>
+                        <h3>女婿上门了</h3>
+                        <a href="javascript:;" class="a1">丈母娘面露杀气吓呆王祖蓝</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-16期</p>
+                        </div>
+                    </div>
+                    <div class="c-b-div">
+                    	<a href="javascript:;"><img src="img/2500695425d141b0bc730eb50117ae4e.jpg" alt="" /></a>
+                        <h3>加油小当家</h3>
+                        <a href="javascript:;" class="a1">少年段子手球球掀晴格格老底</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-16期</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="r-div">
+                	<div class="r-t-div">
+                    	<a href="javascript:;"><img src="img/a6f89b23b26a434a803d33ffe151d814.jpg" alt="" /></a>
+                        <h3>笑傲江湖</h3>
+                        <a href="javascript:;" class="a1">易开甲亲授爆笑求爱36计</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-16期</p>
+                        </div>
+                        <i></i>
+                    </div>
+                    <div class="r-b-div">
+                    	<a href="javascript:;"><img src="img/bfcd08ef04cc4d75bb8f1e08359e8b8d.jpg" alt="" /></a>
+                        <h3>巅峰拍挡</h3>
+                        <a href="javascript:;" class="a1">欧弟体验英式“三蹦子”</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-16期</p>
+                        </div>
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="r-box">
+        	<div class="top clearfix">
+            	<h2>精彩推荐</h2>
+                <a href="javascript:;">更多</a>
+            </div>
+            <div class="bottom">
+            	<div class="t-div">
+                    <a href="javascript:;"><img src="img/6f023e82bc4f422eaadaca8b2055c1e1.jpg" alt="" width="180" height="100"/></a>
+                    <a href="javascript:;" class="a1">暖！TFBOYS誓称共进退</a>
+                </div>
+                <ul>
+                	<li><a href="javascript:;">Jackson王嘉尔宿舍公开</a></li>
+                    <li><a href="javascript:;">胡钟霍吻戏技术哪家强</a></li>
+                    <li><a href="javascript:;">素妍看时旸吻戏嫉妒</a></li>
+                    <li><a href="javascript:;">尼坤率队激战篮球赛</a></li>
+                    <li><a href="javascript:;">奚梦瑶走维秘极致性感</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Run">
+    	<div class="top">
+        	<h2>奔跑吧兄弟第三季</h2>
+            <a href="javascript:;">进入专题></a>
+        </div>
+        <div class="bottom clearfix">
+        	<ul>
+                <li>
+                    <a href="javascript:;"><img src="img/d213ad0a5e0d4d1689c11b8eecc0c982.jpg" alt="" /></a>
+                    <div class="b-top clearfix">
+                        <p class="p1">正片回顾</p>
+                        <a href="javascript:;" class="a1">Baby人生高音首秀卖力演出破音</a>
+                    </div>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-13期</p>
+                    </div>
+                    <i></i>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="img/3e5159c2f0014a86a035b117d454c0e9.jpg" alt="" /></a>
+                    <div class="b-top clearfix">
+                        <p class="p1">自制节目</p>
+                        <a href="javascript:;" class="a1">跑男七宗最：鹿晗万能Xman 郑恺中华曲库</a>
+                    </div>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-13期</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="img/e1a351448c15458d8a5814e1046b16a0.jpg" alt="" /></a>
+                    <div class="b-top clearfix">
+                        <p class="p1">精彩片段</p>
+                        <a href="javascript:;" class="a1">陈赫成山寨版裁判 让工作人员凌乱</a>
+                    </div>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-13期</p>
+                    </div>
+                    <i></i>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="img/v_109709400_m_601_180_101.jpg" alt="" /></a>
+                    <div class="b-top clearfix">
+                        <p class="p1">未播花絮</p>
+                        <a href="javascript:;" class="a1">李晨靠《存在》得到救赎</a>
+                    </div>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-13期</p>
+                    </div>
+                    <i></i>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="img/f806f0bc615d4806ba3fb4f218b04e53.jpg" width="180" height="100" alt="" /></a>
+                    <div class="b-top clearfix">
+                        <p class="p1">新闻速递</p>
+                        <a href="javascript:;" class="a1">鹿晗睡相大公开蠢萌可爱</a>
+                    </div>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                </li>
+			</ul>
+        </div>
+    </div>
+    <div class="talk-show">
+    	<div class="top">
+        	<h2>脱口秀</h2>
+            <a href="javascript:;">更多></a>
+        </div>
+        <div class="bottom clearfix">
+        	<ul>
+                <li>
+                    <a href="javascript:;"><img src="img/553b4a98bd574cb68575ad9ccaa94598.jpg" alt="" /></a>
+                    <h3>康熙来了</h3>
+                    <a href="javascript:;" class="a1">谢依霖被赞好身材小S惊叹</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-17期</p>
+                    </div>
+                    <i></i>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="img/8f23dfae7eaa4886bbe30ea3bda6a4b1.jpg" alt="" /></a>
+                    <h3>晓松奇谈</h3>
+                    <a href="javascript:;" class="a1">解读袁世凯的过人之处</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-17期</p>
+                    </div>
+                    <i></i>
+                </li>
+                <li>
+                    <a href="javascript:;"><img  src="img/cd112930921e4163bf692c257ee8775b.jpg" alt="" /></a>
+                    <h3>时尚江湖</h3>
+                    <a href="javascript:;" class="a1">甜馨被禁看李小璐新片</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-17期</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="img/18c740880c474f788d56a9ef32957613.jpg" alt="" /></a>
+                    <h3>今晚80后脱口秀</h3>
+                    <a href="javascript:;" class="a1">沈腾王自健上演婆媳大战</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-17期</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="img/66a68b01457f4ce2810d3e313846e72c.jpg" width="180" height="100" alt="" /></a>
+                    <h3>SS小燕之夜</h3>
+                    <a href="javascript:;" class="a1">香港第一女神！关之琳来袭</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-17期</p>
+                    </div>
+                    <i></i>
+                </li>
+			</ul>
+        </div>
+    </div>
+    <div class="banner">
+    	<a href="javascript:;"><img src="image/banner.jpg" alt=""/></a>
+    </div>
+    <div class="amusement">
+        <div class="top clearfix">
+            <h2>娱乐</h2>
+            <a href="javascript:;">更多></a>
+            <ul class="clearfix">
+                <li class="li8">大牌对王牌</li>
+                <li>爱奇艺早班机</li>
+                <li>超能大星探</li>
+                <li>帕帕帮</li>
+                <li>泡菜帮</li>
+                <li>娱乐猛回头</li>
+            </ul>
+            <p class="p1"></p>
+        </div>
+        <div class="bottom clearfix">
+            <div class="l-div">
+                    <a href="javascript:;"><img src="img/be755b402c4b4209a373417984680bb1.jpg" alt="" /></a>
+                    <h3>帕帕帮：欧美大片扎堆来华 表姐邦德拼票房</h3>
+                    <a href="javascript:;" class="a1">表姐邦德扎堆来华，比伯OneD销量大战，英伦二美沉迷光头造型，</a>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-16期</p>
+                    </div>
+                    <b></b>
+                    <i></i>
+            </div>
+            <div class="c-div">
+                <div class="c-t-div">
+                    <a href="javascript:;"><img src="img/747590aa9789437e90b378dfe203a662.jpg" alt="" /></a>
+                    <h3>范冰冰撇李晨独自现身聚会会友谈笑风生</h3>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-16期</p>
+                    </div>
+                </div>
+                <div class="c-b-div">
+                    <a href="javascript:;"><img src="img/2779f3627a4e4c39b447b0c5604b7a6c.jpg" alt="" /></a>
+                    <h3>电视剧版《幻城》热拍中冯绍峰马天宇抢镜</h3>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-16期</p>
+                    </div>
+                    <i></i>
+                </div>
+            </div>
+            <div class="r-div">
+                <div class="r-t-div">
+                    <a href="javascript:;"><img src="img/58d89aae16ed427999fc86851122f493.jpg" alt="" /></a>
+                    <h3>《大牌对王牌》 High玩游戏 焦俊艳成"扛把子"</h3>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-16期</p>
+                    </div>
+                    <i></i>
+                </div>
+                <div class="r-b-div">
+                    <a href="javascript:;"><img src="img/6249234524cc4b9c9bc6f6c048511fcf.jpg" alt="" /></a>
+                    <h3>姚笛新戏开机晒自拍心情好反戴帽子潮范儿十足</h3>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-16期</p>
+                    </div>
+                </div>
+            </div>
+            <div class="r-div1">
+                <div class="r-t-div">
+                    <a href="javascript:;"><img src="img/cd2388791f164fed88907fc5a5288522.jpg" alt="" /></a>
+                    <h3>《大牌对王牌》 High玩游戏 焦俊艳成"扛把子"</h3>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-16期</p>
+                    </div>
+                    <b>专题</b>
+                </div>
+                <div class="r-b-div">
+                    <a href="javascript:;"><img src="img/578a3c76c4374147a6dc85f604bae34f.jpg" alt="" /></a>
+                    <h3>姚笛新戏开机晒自拍心情好反戴帽子潮范儿十足</h3>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-16期</p>
+                    </div>
+                    <b>专题</b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Guess">
+        <div class="top clearfix">
+            <h2>猜你喜欢</h2>
+            <a href="javascript:;">更多></a>
+            <ul class="clearfix">
+                <li class="li8">我的播放记录</li>
+                <li>我的收藏</li>
+                <li>我的上传</li>
+            </ul>
+        </div>
+        <div class="bottom clearfix">
+            <div class="l-div">
+                <div class="c-t-div">
+                    <a href="javascript:;"><img src="img/a_100014091_m_601_m2_180_101.jpg" alt="" /></a>
+                    <h3>反恐特战队</h3>
+                    <a href="javascript:;" class="a1">和平年代的神鹰战队</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">10集全</p>
+                    </div>
+                    <b>VIP</b>
+                    <i></i>
+                </div>
+                <div class="c-b-div">
+                    <a href="javascript:;"><img src="img/v_109707704_m_601_180_101.jpg" alt="" /></a>
+                    <h3>大凡搞笑吧</h3>
+                    <a href="javascript:;" class="a1">盘点姑娘们裙子的故事</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-11期</p>
+                    </div>
+                    <i></i>
+                </div>
+            </div>
+            <div class="c-div">
+                <div class="c-t-div">
+                    <a href="javascript:;"><img src="img/v_109720788_m_601_m1_180_101.jpg" alt="" /></a>
+                    <h3>侦探Mr.闹</h3>
+                    <a href="javascript:;" class="a1">帅哥！请把你的蛋拿走</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-10期</p>
+                    </div>
+                </div>
+                <div class="c-b-div">
+                    <a href="javascript:;"><img src="img/v_109724719_m_601_m1_180_101.jpg" alt="" /></a>
+                    <h3>合肥五千大学生集体相亲</h3>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-09期</p>
+                    </div>
+                    <i></i>
+                </div>
+            </div>
+            <div class="r-div">
+                <div class="r-t-div">
+                    <a href="javascript:;"><img src="img/v_109600767_m_601_m2_180_101.jpg" alt="" /></a>
+                    <h3>这里的黎明静悄悄</h3>
+                    <a href="javascript:;" class="a1">战火纷飞里的女性</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-10期</p>
+                    </div>
+                </div>
+                <div class="r-b-div">
+                    <a href="javascript:;"><img src="img/v_109720278_m_601_m1_180_101.jpg" alt="" /></a>
+                    <h3>唐唐脱口秀</h3>
+                    <a href="javascript:;" class="a1">惊呆！男子下水道偷窥妹子</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <b></b>
+                </div>
+            </div>
+            <div class="r-div1">
+                <div class="r-t-div">
+                    <a href="javascript:;"><img src="img/v_109703483_m_601_m1_180_101.jpg" alt="" /></a>
+                    <h3>Big笑工坊</h3>
+                    <a href="javascript:;" class="a1">唐唐神吐槽：无良的媒体</a>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-11期</p>
+                    </div>
+                </div>
+                <div class="r-b-div">
+                    <a href="javascript:;"><img src="img/v_62651697_m_601_m2_180_101.jpg" alt="" /></a>
+                    <h3>前任攻略</h3>
+                    <a href="javascript:;" class="a1">郑恺韩庚激情热吻</a>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">42集全</p>
+                    </div>
+                </div>
+            </div>
+            <div class="r-div2">
+                <div class="r-t-div">
+                    <a href="javascript:;"><img src="img/v_109724658_m_601_180_101.jpg" alt="" /></a>
+                    <h3>为争礼钱新婚夜进派出所</h3>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <div class="po2">
+                        <p class="tm"></p>
+                        <p class="p3">11-11期</p>
+                    </div>
+                </div>
+                <div class="r-b-div">
+                    <a href="javascript:;">进入个人中心</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-box">
+    	<div class="top">
+        	<h2>推广广告</h2>
+        </div>
+        <div class="bottom">
+        	<ul class="clearfix">
+            	<li>
+                	<a href="javascript:;"><img src="img/72fe943f0ce641f0ad03ce3287776027.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/ed25cef45a6c4f898013fb2cb39545fc.jpg" alt=""/></a>
+                </li>
+                <li>
+                	<a href="javascript:;"><img src="img/c08e170ef3ed449782cf2dcb4a1d71ed.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/0770ed5ac9124f62bafc1e4ea8a4327d.jpg" alt=""/></a>
+                </li>
+                <li>
+                	<a href="javascript:;"><img src="img/7a79529211284f9682bd8dc4c566752c.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/faf902f0c4674bee87250e1b68ad507f.jpg" alt=""/></a>
+                </li>
+                <li>
+                	<a href="javascript:;"><img src="img/5ec41ca5086b4ab6b2b6074ee21d77cd.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/12d61bffea224de9ac9e0001315256be.jpg" alt=""/></a>
+                </li>
+                <li>
+                	<a href="javascript:;"><img src="img/df781ea7869148ea8f075b39f78b3e4f.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/1c5003b346e540fc99cb92b1ecec833b.jpg" alt=""/></a>
+                </li>
+            </ul>
+            <b></b>
+            <i></i>
+        </div>
+    </div>
+    <div class="Movie clearfix">
+    	<div class="l-box">
+        	<div class="top clearfix">
+            	<h2>电影</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8"> 爱奇艺爱电影</li>
+                    <li>网络大电影</li>
+                    <li>VIP会员</li>
+                    <li>爱大片：单身人士N种自嗨指南</li>
+                </ul>
+            </div>
+            <div class="bottom clearfix">
+				<div class="l-div">
+                	<div class="l-t-div">
+                        <a href="javascript:;"><img src="img/v_109697353_m_601_m1_180_236.jpg" alt="" /></a>
+                        <h3>天眼传奇</h3>
+                        <a href="javascript:;" class="a1">少年天眼的奇幻漂流</a>
+                        <div class="po1">
+                            <p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                    </div>
+                    <div class="l-b-div">
+                    	<a href="javascript:;"><img src="img/v_109673861_m_601_m1_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>七月半之恐怖宿舍</h3>
+                            <p>7<span>.8</span></p>
+                        </div>
+                        <a href="javascript:;" class="a1">学生放假跟鬼玩</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <i></i>
+                        <b>VIP</b>
+                    </div>
+				</div>
+                <div class="c-div">
+                	<div class="c-t-div">
+                    	<a href="javascript:;"><img src="img/v_109600767_m_601_m2_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>这里的黎明静悄悄</h3>
+                            <p>7<span>.7</span></p>
+                        </div>
+                        <a href="javascript:;" class="a1">战火纷飞里的女性</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <i></i>
+                    </div>
+                    <div class="c-b-div">
+                    	<a href="javascript:;"><img src="img/v_109670909_m_601_m1_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>情剑</h3>
+                            <p>7<span>.7</span></p>
+                        </div>
+                        <a href="javascript:;" class="a1">谢霆锋阿娇聚首大荧幕</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <b>VIP</b>
+                    </div>
+                </div>
+                <div class="r-div">
+                	<div class="r-t-div">
+                    	<a href="javascript:;"><img src="img/v_109665726_m_601_m3_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>斗地主</h3>
+                            <p>6<span>.7</span></p>
+                        </div>
+                        <a href="javascript:;" class="a1">买红妹潘长江爆笑斗法</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                    </div>
+                    <div class="r-b-div">
+                    	<a href="javascript:;"><img src="img/v_109115459_m_601_m4_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>道士下山</h3>
+                            <p>6<span>.7</span></p>
+                        </div>
+                        <a href="javascript:;" class="a1">陈凯歌以武载道话奇观</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <b>VIP</b>
+                    </div>
+                </div>
+                <div class="r-div1">
+                	<div class="r-t-div">
+                    	<a href="javascript:;"><img src="img/v_109624530_m_601_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>山炮进城</h3>
+                            <p>8<span>.7</span></p>
+                        </div>
+                        <a href="javascript:;" class="a1">赵家班首部网络大电影</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                    </div>
+                    <div class="r-b-div">
+                    	<a href="javascript:;"><img src="img/v_109361813_m_601_m1_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>对风说爱你</h3>
+                            <p>8<span>.7</span></p>
+                        </div>
+                        <a href="javascript:;" class="a1">等待是最长情的告白</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <b>VIP</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="r-box">
+        	<div class="top clearfix">
+            	<h2>电影榜</h2>
+                <a href="javascript:;">更多></a>
+            </div>
+            <div class="bottom">
+                <ul>
+                	<li class="clearfix li9"><span>1</span><a href="javascript:;">道士下山</a><b></b></li>
+                    <li class="clearfix li9"><span>2</span><a href="javascript:;">上跑进城</a><i></i></li>
+                    <li class="clearfix li9"><span>3</span><a href="javascript:;">斗地主</a><em></em></li>
+                    <li class="clearfix"><span>4</span><a href="javascript:;">坏姐姐之拆婚联盟</a><b></b></li>
+                    <li class="clearfix"><span>5</span><a href="javascript:;">情剑</a><i></i></li>
+                    <li class="clearfix"><span>6</span><a href="javascript:;">移动迷宫</a><b></b></li>
+                    <li class="clearfix"><span>7</span><a href="javascript:;">前任攻略</a><em></em></li>
+                    <li class="clearfix"><span>8</span><a href="javascript:;">熊出没之夺宝熊兵</a><i></i></li>
+                    <li class="clearfix li-1"><span>9</span><a href="javascript:;">煎饼侠</a><i></i></li>
+                </ul>
+                <div class="t-div">
+                    	<a href="javascript:;"><img src="img/v_109709351_m_601_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>对风说爱你</h3>
+                            <p>8<span>.7</span></p>
+                        </div>
+                        <a href="javascript:;" class="a1">等待是最长情的告白</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <b>VIP</b>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="VP clearfix">
+    	<div class="vMovie">
+        	<div class="top clearfix">
+            	<h2>微电影</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">第二届深圳国际微电影节</li>
+                    <li>中国梦365个故事</li>
+                </ul>
+            </div>
+            <div class="bottom">
+            	<ul class="clearfix">
+                	<li>
+                    	<a href="javascript:;"><img src="img/v_109687924_m_601_m2_180_101.jpg" alt=""/></a>
+                        <h2>真正的伤疤是牵挂</h2>
+                    </li>
+                    <li>
+                    	<a href="javascript:;"><img src="img/v_109721765_m_601_180_101.jpg" alt=""/></a>
+                        <h2>这样玩想整死谁？</h2>
+                    </li>
+                    <li>
+                    	<a href="javascript:;"><img src="img/v_109724035_m_601_180_101.jpg" alt=""/></a>
+                        <h2>十月初五的月光</h2>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="Teaser">
+        	<div class="top clearfix">
+            	<h2>片花</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">007系列回顾</li>
+                    <li>11月院线观影指南</li>
+                </ul>
+            </div>
+            <div class="bottom">
+            	<ul class="clearfix">
+                	<li>
+                    	<a href="javascript:;"><img src="img/v_109725776_m_601_180_101.jpg" alt=""/></a>
+                        <h2>我的少女时代：超长特辑</h2>
+                    </li>
+                    <li>
+                    	<a href="javascript:;"><img  src="img/uv_3053365274_m_601_180_101.jpg" alt=""/></a>
+                        <h2>哈利波特：上映14年混剪</h2>
+                    </li>
+				</ul>
+            </div>
+        </div>
+    </div>
+    <div class="teleplay clearfix">
+    	<div class="l-box">
+        	<div class="top clearfix">
+            	<h2>电视剧</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">内地</li>
+                    <li>韩剧</li>
+                    <li>日剧</li>
+                    <li>美剧</li>
+                    <li>自编剧</li>
+                </ul>
+            </div>
+            <div class="bottom clearfix">
+				<div class="l-div">
+                	<div class="l-t-div">
+                        <a href="javascript:;"><img src="img/a_100006752_m_601_m3_180_236.jpg" alt="" /></a>
+                        <h3>新济公活佛</h3>
+                        <div class="po1">
+                            <p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                            <p class="tm"></p>
+                            <p class="p3">更新至22集</p>
+						</div>
+                    </div>
+                    <div class="l-b-div">
+                    	<a href="javascript:;"><img src="img/a_100016845_m_601_m2_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>家和万事兴</h3>
+                        </div>
+                        
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                            <p class="tm"></p>
+                            <p class="p3">10集全</p>
+						</div>
+                        <i></i>
+                    </div>
+				</div>
+                <div class="c-div">
+                	<div class="c-t-div">
+                    	<a href="javascript:;"><img src="img/f6cf52886dbc44469c2f039ed64f86ad.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>北上广不相信眼泪</h3>
+                        </div>
+                        
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                            <p class="tm"></p>
+                            <p class="p3">80集全</p>
+						</div>
+                        <i></i>
+                    </div>
+                    <div class="c-b-div">
+                    	<a href="javascript:;"><img src="img/a_100014091_m_601_m2_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>反恐特战队</h3>
+                        </div>
+                        
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                            <p class="tm"></p>
+                            <p class="p3">更新至22集</p>
+						</div>
+                    </div>
+                </div>
+                <div class="r-div">
+                	<div class="r-t-div">
+                    	<a href="javascript:;"><img src="img/916e09126cae4a81bbc47725561b7f81.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>灵魂摆渡2</h3>
+                        </div>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                            <p class="tm"></p>
+                            <p class="p3">更新至22集</p>
+						</div>
+                    </div>
+                    <div class="r-b-div">
+                    	<a href="javascript:;"><img src="img/a_100014999_m_601_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>幸福归来</h3>
+                        </div>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                            <p class="tm"></p>
+                            <p class="p3">更新至22集</p>
+						</div>
+                    </div>
+                </div>
+                <div class="r-div1">
+                	<div class="r-t-div">
+                    	<a href="javascript:;"><img src="img/a_100016023_m_601_m3_180_236.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>大秧歌</h3>
+                        </div>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                            <p class="tm"></p>
+                            <p class="p3">80集全</p>
+						</div>
+                    </div>
+                    <div class="r-b-div">
+                    	<a href="javascript:;"><img src="img/6d2d8b64d197403fa6569913350d0a72.png" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>蜀山战纪第2季</h3>
+                        </div>
+                        
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                            <p class="tm"></p>
+                            <p class="p3">80集全</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="r-box">
+        	<div class="top clearfix">
+            	<h2>电影榜</h2>
+                <a href="javascript:;">更多></a>
+            </div>
+            <div class="bottom">
+                <ul>
+                	<li class="clearfix li9"><span>1</span><a href="javascript:;">反恐特战队</a><b></b></li>
+                    <li class="clearfix li9"><span>2</span><a href="javascript:;">大秧歌</a><i></i></li>
+                    <li class="clearfix li9"><span>3</span><a href="javascript:;">大汉情缘之云中歌</a><em></em></li>
+                    <li class="clearfix"><span>4</span><a href="javascript:;">北上广不相信眼泪</a><b></b></li>
+                    <li class="clearfix"><span>5</span><a href="javascript:;">幸福归来</a><i></i></li>
+                    <li class="clearfix"><span>6</span><a href="javascript:;">琅琊榜</a><b></b></li>
+                    <li class="clearfix"><span>7</span><a href="javascript:;">灵魂摆渡2</a><em></em></li>
+                    <li class="clearfix li-1"><span>8</span><a href="javascript:;">大好时光</a><i></i></li>
+                </ul>
+                <div class="t-div">
+                    	<a href="javascript:;"><img src="img/a_100014162_m_601_m1_195_260.jpg" alt="" /></a>
+                        <div class="h-p clearfix">
+                        	<h3>野山鹰</h3>
+                        </div>
+                        
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                            <p class="tm"></p>
+                            <p class="p3">80集全</p>
+						</div>
+                        <b>VIP</b>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-box">
+    	<div class="top">
+        	<h2>推广广告</h2>
+        </div>
+        <div class="bottom">
+        	<ul class="clearfix">
+            	<li>
+                	<a href="javascript:;"><img src="img/72fe943f0ce641f0ad03ce3287776027.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/ed25cef45a6c4f898013fb2cb39545fc.jpg" alt=""/></a>
+                </li>
+                <li>
+                	<a href="javascript:;"><img src="img/c08e170ef3ed449782cf2dcb4a1d71ed.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/0770ed5ac9124f62bafc1e4ea8a4327d.jpg" alt=""/></a>
+                </li>
+                <li>
+                	<a href="javascript:;"><img src="img/7a79529211284f9682bd8dc4c566752c.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/faf902f0c4674bee87250e1b68ad507f.jpg" alt=""/></a>
+                </li>
+                <li>
+                	<a href="javascript:;"><img src="img/5ec41ca5086b4ab6b2b6074ee21d77cd.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/12d61bffea224de9ac9e0001315256be.jpg" alt=""/></a>
+                </li>
+                <li>
+                	<a href="javascript:;"><img src="img/df781ea7869148ea8f075b39f78b3e4f.jpg" alt=""/></a>
+                    <a href="javascript:;"><img src="img/1c5003b346e540fc99cb92b1ecec833b.jpg" alt=""/></a>
+                </li>
+            </ul>
+            <b></b>
+            <i></i>
+		</div>
+	</div>
+    <div class="can-edu clearfix">
+    	<div class="cartoon">
+        	<div class="top clearfix">
+            	<h2>动漫</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">真人特摄</li>
+                    <li>动画电影</li>
+                </ul>
+            </div>
+            <div class="bottom">
+            	<div class="l-div">
+                    <a href="javascript:;"><img src="img/c499b05e4ba844758c371f0ed9daa6c9.jpg" alt="" /></a>
+                    <h3>航海王</h3>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <b></b>
+                    <i></i>
+				</div>
+                <div class="c-div">
+                	<div class="c-t-div">
+                    	<a href="javascript:;"><img src="img/a_100010806_m_601_m4_180_101.jpg" alt="" /></a>
+                        <h3>灵域</h3>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                    </div>
+                    <div class="c-b-div">
+                    	<a href="javascript:;"><img src="img/823803bca83342e3b74d7d3ce72cf46e.jpg" alt="" /></a>
+                        <h3>精灵梦叶罗丽 第3部</h3>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="child">
+        	<div class="top clearfix">
+            	<h2>少儿</h2>
+                <a href="javascript:;">更多></a>
+            </div>
+            <div class="c-div">
+                <div class="c-t-div">
+                    <a href="javascript:;"><img src="img/a_100013465_m_601_m1_180_101.jpg" alt="" /></a>
+                    <h3>小花仙 第2季</h3>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                </div>
+                <div class="c-b-div">
+                    <a href="javascript:;"><img src="img/a_100015985_m_601_m1_180_101.jpg" alt="" /></a>
+                    <h3>粉红猪小妹</h3>
+                    <div class="po1">
+                        <p class="tm"></p>
+                        <p class="p3">1080P</p>
+                    </div>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+    	<div class="education">
+        	<div class="top clearfix">
+            <h2>教育</h2>
+            <a href="javascript:;">更多></a>
+        </div>
+            <div class="c-div">
+                <div class="c-t-div">
+                    <a href="javascript:;"><img src="img/a_100017211_m_601_180_101.jpg" alt="" /></a>
+                    <h3>小伴龙儿歌全集</h3>
+                </div>
+                <div class="c-b-div">
+                    <a href="javascript:;"><img src="img/ff09db739a3146e7a5934bec1457ba38.jpg" alt="" /></a>
+                    <h3>60秒学英语</h3>
+                    <i></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Sp-fash clearfix">
+    	<div class="Sports">
+        	<div class="top clearfix">
+            	<h2>体育</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">足球</li>
+                    <li>篮球</li>
+                    <li>美网</li>
+                    <li>昆仑决</li>
+                </ul>
+            </div>
+            <div class="bottom">
+            	 <div class="c-div">
+                	<div class="c-t-div">
+                    	<a href="javascript:;"><img src="img/v_109725116_m_601_180_101.jpg" alt="" /></a>
+                        <h3>佩兰:门柱和裁判改变结果</h3>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                    </div>
+                    <div class="c-b-div">
+                    	<a href="javascript:;"><img src="img/v_109725294_m_601_180_101.jpg" alt="" /></a>
+                        <h3>德国因炸弹威胁取消比赛</h3>
+                    </div>
+                </div>
+                 <div class="c-div1">
+                	<div class="c-t-div">
+                    	<a href="javascript:;"><img src="img/v_109725741_m_601_180_101.jpg" alt="" /></a>
+                        <h3>7万英国球迷齐唱马赛曲</h3>
+                    </div>
+                    <div class="c-b-div">
+                    	<a href="javascript:;"><img src="img/v_109725296_m_601_180_101.jpg" alt="" /></a>
+                        <h3>总决赛费德勒胜小德进4强</h3>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Music">
+        	<div class="top clearfix">
+            	<h2>音乐</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">爱奇艺音乐榜</li>
+                </ul>
+            </div>
+            <div class="bottom">
+            	 <div class="c-div">
+                	<div class="c-t-div">
+                    	<a href="javascript:;"><img src="img/v_109716314_m_601_m1_180_236.jpg" width="180" height="252" alt="" /></a>
+                        <h3>B.A.P - Young, Wild & Free</h3>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="c-div1">
+                	<div class="c-t-div">
+                    	<a href="javascript:;"><img src="img/v_109717900_m_601_180_101.jpg" alt="" /></a>
+                        <h3>Justin Bieber PURP...</h3>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                    </div>
+                    <div class="c-b-div">
+                    	<a href="javascript:;"><img src="img/v_109718082_m_601_180_101.jpg" alt="" /></a>
+                        <h3>罗志祥 - 致命伤 重伤精华版</h3>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fashion">
+        	<div class="top clearfix">
+            	<h2>时尚</h2>
+                <a href="javascript:;">更多></a>
+            </div>
+            <div class="c-div">
+                	<div class="c-t-div">
+                    	<a href="javascript:;"><img src="img/v_109724436_m_601_180_236.jpg" width="180" height="252" alt="" /></a>
+                        <h3>杨幂刘亦菲心机炫颜</h3>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="infant-health clearfix">
+    	<div class="infant">
+        	<div class="top clearfix">
+            	<h2>母婴</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">孕期</li>
+                    <li>分娩时刻</li>
+                    <li>早教课堂</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109723491_m_601_180_101.jpg" alt="" /></a>
+                            <h3>孩子的智商到底随谁呢</h3>
+                            
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109659452_m_601_180_101.jpg" alt="" /></a>
+                            <h3>如果遇见人贩子咋对付</h3>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="life">
+        	<div class="top clearfix">
+            	<h2>生活</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">悦活汇</li>
+                    <li>美食专区</li>
+                    <li>健身季</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/964cf89a96a64f4f833ce1880a0069e5.jpg" width="180"  alt="" /></a>
+                            <h3>那来自世外桃源的人</h3>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109723867_m_601_180_101.jpg" alt="" /></a>
+                            <h3>FitTime 办公室塑形计划</h3>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="health">
+        	<div class="top clearfix">
+            	<h2>健康</h2>
+                <a href="javascript:;">更多></a>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109722233_m_601_m1_180_101.jpg" width="180"  alt="" /></a>
+                            <h3>色彩心理大揭秘</h3>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sci-car-fin clearfix">
+    	<div class="infant">
+        	<div class="top clearfix">
+            	<h2>科技</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">极客说</li>
+                    <li>前沿技术</li>
+                    <li>风云榜</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109718770_m_601_180_101.jpg" alt="" /></a>
+                            <h3>科技相对论-科幻与黑科技</h3>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <i></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109725761_m_601_180_101.jpg" alt="" /></a>
+                            <h3>Q500 4K无人机上手试飞</h3>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="life">
+        	<div class="top clearfix">
+            	<h2>汽车</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">保时捷MacanGTS</li>
+                    <li>奥迪S8</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/c72dc8468ab64db38c773c1b157dea89.jpg" width="180"  alt="" /></a>
+                            <h3>独家连线：前联储主席格林</h3>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109721580_m_601_180_101.jpg" alt="" /></a>
+                            <h3>科尼赛克Regera自动门</h3>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <i></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="health">
+        	<div class="top clearfix">
+            	<h2>财经</h2>
+                <a href="javascript:;">更多></a>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109721684_m_601_180_101.jpg" width="180"  alt="" /></a>                            <h3>雅马哈机器人开摩托</h3>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="tra-docu-war clearfix">
+    	<div class="infant">
+        	<div class="top clearfix">
+            	<h2>旅游</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">翻滚吧地球</li>
+                    <li>XFUN吃货俱乐部</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109725195_m_601_180_101.jpg" alt="" /></a>
+                            <h3>冰淇淋竟是牛粪味儿的？！</h3>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <i></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109720261_m_601_m2_180_101.jpg" alt="" /></a>
+                            <h3>史上最像外星生物的怪虫</h3>
+                            
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="life">
+        	<div class="top clearfix">
+            	<h2>纪录片</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">VIP精选</li>
+                    <li>天罚</li>
+                    <li>热记录</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109657303_m_601_m2_180_101.jpg" width="180"  alt="" /></a>
+                            <h3>喜马拉雅天梯</h3>
+                            
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109721837_m_601_180_101.jpg" alt="" /></a>
+                            <h3>土豪掏千万赴太空只为表白</h3>
+                            
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <i></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="health">
+        	<div class="top clearfix">
+            	<h2>军事</h2>
+                <a href="javascript:;">更多></a>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109724339_m_601_m2_180_101.jpg" width="180"  alt="" /></a>
+                            <h3>美功臣级舰39艘自身无损</h3>
+                            
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="original clearfix">
+    	<div class="l-box">
+        	<div class="top clearfix">
+            	<h2>原创</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">原创热点</li>
+                    <li>新悦动画</li>
+                    <li>网络剧</li>
+                    <li>每周热播</li>
+                    <li>爱侃</li>
+                    <li>禽兽超人</li>
+                </ul>
+            </div>
+            <div class="bottom clearfix">
+                <div class="l-div">
+                    	<a href="javascript:;"><img src="img/b1c41bef81cb4a359059c5c8b12613f7.jpg" alt="" /></a>
+                        <h3>非首脑会谈</h3>
+                        <a href="javascript:;" class="a1">Guillaume疑将结婚 殷志源公开童颜秘诀</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-16期</p>
+                        </div>
+                        <b></b>
+                        <i></i>
+                    </div>
+                <div class="c-div">
+                	<div class="c-t-div">
+                    	<a href="javascript:;"><img src="img/v_201909773_l_601_m1_180_101.jpg" alt="" /></a>
+                        <h3>女婿上门了</h3>
+                        <a href="javascript:;" class="a1">丈母娘面露杀气吓呆王祖蓝</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-16期</p>
+                        </div>
+                    </div>
+                    <div class="c-b-div">
+                    	<a href="javascript:;"><img src="img/v_109725320_m_601_m1_180_101.jpg" alt="" /></a>
+                        <h3>加油小当家</h3>
+                        <a href="javascript:;" class="a1">少年段子手球球掀晴格格老底</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-16期</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="r-div">
+                	<div class="r-t-div">
+                    	<a href="javascript:;"><img src="img/v_109726879_m_601_m1_180_101.jpg" alt="" /></a>
+                        <h3>笑傲江湖</h3>
+                        <a href="javascript:;" class="a1">易开甲亲授爆笑求爱36计</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-16期</p>
+                        </div>
+                        <i></i>
+                    </div>
+                    <div class="r-b-div">
+                    	<a href="javascript:;"><img src="img/v_109723638_m_601_m2_180_101.jpg" alt="" /></a>
+                        <h3>巅峰拍挡</h3>
+                        <a href="javascript:;" class="a1">欧弟体验英式“三蹦子”</a>
+                        <div class="po1">
+                        	<p class="tm"></p>
+                            <p class="p3">1080P</p>
+                        </div>
+                        <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-16期</p>
+                        </div>
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="r-box">
+        	<div class="top clearfix">
+            	<h2>原创达人</h2>
+                <a href="javascript:;">更多></a>
+            </div>
+            <div class="bottom">
+                <ul>
+                	<li class="clearfix">
+                    	<a href="javascript:;" class="a1"><img src="image/1-1.jpg" alt=""/></a>
+                    	<a href="javascript:;" class="a2">点星人视频</a>
+                        <p>2,741人订阅</p>
+                        <b>+订阅</b>
+                    </li>
+                    <li class="clearfix">
+                    	<a href="javascript:;" class="a1"><img src="image/1-2.jpg" alt=""/></a>
+                    	<a href="javascript:;" class="a2">黄豆包儿</a>
+                        <p>124人订阅</p>
+                        <b>+订阅</b>
+                    </li>
+                    <li class="clearfix">
+                    	<a href="javascript:;" class="a1"><img src="image/1-3.jpg" alt=""/></a>
+                    	<a href="javascript:;" class="a2">女神TV</a>
+                        <p>2,127人订阅</p>
+                        <b>+订阅</b>
+                    </li>
+                    <li class="clearfix">
+                    	<a href="javascript:;" class="a1"><img src="image/1-4.jpg" alt=""/></a>
+                    	<a href="javascript:;" class="a2">明白学堂官方</a>
+                        <p>7,399人订阅</p>
+                        <b>+订阅</b>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="funny-Blog clearfix">
+    	<div class="infant">
+        	<div class="top clearfix">
+            	<h2>搞笑</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">欢乐精选</li>
+                    <li>雷人囧事</li>
+                    <li>笑霸来了</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109724537_m_601_m1_180_101.jpg" alt="" /></a>
+                            <h3>康熙来了</h3>
+                            <a href="javascript:;" class="a1">谢依霖被赞好身材小S惊叹</a>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-17期</p>
+                        	</div>
+                            <i></i>
+                        </div>
+                    </li>
+                    <li class="li-2">
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/4c58c5f6b0dc47a6b309581e220a9a26.jpg" width="180" alt="" /></a>
+                            <h3>晓松奇谈</h3>
+                            <a href="javascript:;" class="a1">解读袁世凯的过人之处</a>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-17期</p>
+                        	</div>
+                            <i></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/7906251ab45a4db3a696d4daefbb54d5.jpg" width="180" alt="" /></a>
+                            <h3>时尚江湖</h3>
+                            <a href="javascript:;" class="a1">甜馨被禁看李小璐新片</a> 
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-17期</p>
+                        	</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="life">
+        	<div class="top clearfix">
+            	<h2>拍客</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">粉丝频道</li>
+                    <li>奇嘴八舌</li>
+                    <li>饭店双谈</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109725021_m_601_m1_180_101.jpg" width="180"  alt="" /></a>
+                            <h3>今晚80后脱口秀</h3>
+                            <a href="javascript:;" class="a1">沈腾王自健上演婆媳大战</a>  
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-17期</p>
+                        	</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109720285_m_601_m3_180_101.jpg" alt="" /></a>
+                            <h3>SS小燕之夜</h3>
+                            <a href="javascript:;" class="a1">香港第一女神！关之琳来袭</a> 
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-17期</p>
+                        	</div>
+                            <i></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Game-pps clearfix">
+    	<div class="infant">
+        	<div class="top clearfix">
+            	<h2>游戏</h2>
+                <a href="javascript:;">更多></a>
+                <ul class="clearfix">
+                	<li class="li8">我的世界</li>
+                    <li>史利丹快报</li>
+                    <li>天策最脏教学</li>
+                    <li>秀你一脸</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109724537_m_601_m1_180_101.jpg" alt="" /></a>
+                            <h3>康熙来了</h3>
+                            <a href="javascript:;" class="a1">谢依霖被赞好身材小S惊叹</a>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-17期</p>
+                        	</div>
+                            <i></i>
+                        </div>
+                    </li>
+                    <li class="li-2">
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/4c58c5f6b0dc47a6b309581e220a9a26.jpg" width="180" alt="" /></a>
+                            <h3>晓松奇谈</h3>
+                            <a href="javascript:;" class="a1">解读袁世凯的过人之处</a>
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-17期</p>
+                        	</div>
+                            <i></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/7906251ab45a4db3a696d4daefbb54d5.jpg" width="180" alt="" /></a>
+                            <h3>时尚江湖</h3>
+                            <a href="javascript:;" class="a1">甜馨被禁看李小璐新片</a> 
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-17期</p>
+                        	</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="life">
+        	<div class="top clearfix">
+            	<h2>PPS奇秀</h2>
+                <a href="javascript:;">零距离互动></a>
+                <ul class="clearfix">
+                	<li class="li8">奇秀心性</li>
+                    <li>美女</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <ul class="clearfix">
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109725021_m_601_m1_180_101.jpg" width="180"  alt="" /></a>
+                            <h3>今晚80后脱口秀</h3>
+                            <a href="javascript:;" class="a1">沈腾王自健上演婆媳大战</a>  
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-17期</p>
+                        	</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="c-t-div">
+                            <a href="javascript:;"><img src="img/v_109720285_m_601_m3_180_101.jpg" alt="" /></a>
+                            <h3>SS小燕之夜</h3>
+                            <a href="javascript:;" class="a1">香港第一女神！关之琳来袭</a> 
+                            <div class="po1">
+                                <p class="tm"></p>
+                                <p class="p3">1080P</p>
+                            </div>
+                            <div class="po2">
+                        	<p class="tm"></p>
+                            <p class="p3">11-17期</p>
+                        	</div>
+                            <i></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="last">
+    	<ul class="clearfix">
+        	<li><a href="javascript:;"><img src="image/1-5.jpg" alt="" /></a></li>
+            <li><a href="javascript:;"><img src="image/1-6.jpg" alt="" /></a></li>
+            <li><a href="javascript:;"><img src="image/1-7.jpg" alt="" /></a></li>
+            <li><a href="javascript:;"><img src="image/1-8.jpg" alt="" /></a></li>
+            <li><a href="javascript:;"><img src="image/1-9.jpg" alt="" /></a></li>
+        </ul>
+    </div>
+    <div class="banner">
+    	<a href="javascript:;"><img src="image/banner1.jpg" alt=""/></a>
+    </div>
+</div>
+<div class="footer-box">
+	<div class="foot-box">
+        <div class="partner clearfix">
+            <div class="partner-box">
+                <div class="top clearfix">
+                    <h2>合作伙伴</h2>
+                    <a href="javascript:;">更多></a>
+                </div>
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;">万达电影网</a>
+                        <a href="javascript:;">华策影视</a>
+                        <a href="javascript:;">百度V计划</a>
+                        <a href="javascript:;">智能电视网</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">华谊兄弟</a>
+                        <a href="javascript:;">百老汇</a>
+                        <a href="javascript:;">央广电讯</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">星美</a>
+                        <a href="javascript:;">百度视频</a>
+                        <a href="javascript:;">华录百纳</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">光线影视</a>
+                        <a href="javascript:;">百度百科</a>
+                        <a href="javascript:;">百度贴吧</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">电影网</a>
+                        <a href="javascript:;">hao123</a>
+                        <a href="javascript:;">爱奇艺天猫店</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="aiqiyi">
+                <div class="top clearfix">
+                    <h2>爱奇艺动态</h2>
+                    <a href="javascript:;">更多></a>
+                </div>
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;">爱奇艺影业与China 3D战略合作</a>
+                        <a href="javascript:;">爱奇艺与NBC环球达成版权合作</a>
+                        <a href="javascript:;">《蜀山战纪》上线爱奇艺VIP会员</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">爱奇艺发布音频水印技术</a>
+                        <a href="javascript:;">爱奇艺获网络节目评选21项大奖</a>
+                        <a href="javascript:;">爱奇艺公布30+超级网剧计划</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+    <div class="footer">
+    	<div class="f-box">
+            <p class="p4">
+                <a href="javascript:;">公司介绍</a><span>|</span>
+                <a href="javascript:;">新闻动态</a><span>|</span>
+                <a href="javascript:;">联系方式</a><span>|</span>
+                <a href="javascript:;">招聘英才</a><span>|</span>
+                <a href="javascript:;">爱奇艺实验室</a><span>|</span>
+                <a href="javascript:;">开放平台</a><span>|</span>
+                <a href="javascript:;">应用商店</a><span>|</span>
+                <a href="javascript:;">爱奇艺论坛</a><span>|</span>
+                <a href="javascript:;">帮助与反馈</a><span>|</span>
+                <a href="javascript:;">侵权投诉</a><span>|</span>
+                <a href="javascript:;">About Us</a>
+            </p>
+            <p class="p5">
+            	<a href="javascript:;">违法和不良信息举报电话：400-800-7171</a>
+                <a href="javascript:;">举报邮箱：jubao365@qiyi.com</a>
+            </p>
+            <p class="p6">
+            	<a href="javascript:;">京网文[2015]0652-282号</a>
+                <a href="javascript:;" class="a2">中国互联网诚信联盟</a>
+                <a href="javascript:;" class="a3">互联网违法和不良信息举报中心</a>
+                <a href="javascript:;">信息网络传播视听节目许可证 0110544号</a>
+                <a href="javascript:;">广播电视节目制作经营许可证（京）字第1938号</a>
+            </p>
+            <p class="p7">
+            	<a href="javascript:;" class="a1">京ICP证110636号</a>
+                <a href="javascript:;" class="a2">经营性网站备案信息 京公网安备 11010802010263号</a>
+                <a href="javascript:;">增值电信业务经营许可证 B2-20120273</a>
+                <a href="javascript:;">互联网药品信息服务资格证书 （京）-经营性-2013-0012</a>
+            </p>
+            <p class="p8">
+            	<a href="javascript:;" class="a1">出版物经营许可证</a>
+            </p>
+            <p class="p9">
+            	<a href="javascript:;" class="a1">Copyright © 2015 爱奇艺 All Rights Reserved</a>
+            </p>
+		</div>   
+	</div>
+</div>
+</body>
+</html>

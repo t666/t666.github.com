@@ -1,2 +1,1 @@
-# t666.github.com-io
-index
+# t666.github.com
